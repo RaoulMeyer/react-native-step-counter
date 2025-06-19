@@ -66,7 +66,7 @@ class StepCounterService(
             previousSteps = eventData[0].toDouble()
             false
         } else {
-            currentSteps = eventData[0].toDouble().minus(previousSteps)
+            currentSteps = eventData[0].toDouble()
             // set the last update to the current time
             true
         }
